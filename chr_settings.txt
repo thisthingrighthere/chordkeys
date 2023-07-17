@@ -1,0 +1,185 @@
+### custom maps ###
+
+fg: ent
+dg: tab
+sg: bks
+ag: del
+hj: nex
+
+#hk: acc
+#hl: emj
+#h;: grk
+
+fj: e
+fk: a
+fs: o
+af: i
+dj: n
+js: s
+aj: r
+dk: l
+ad: d
+;d: u
+as: m
+
+df: t
+ds: h
+
+jk: c
+jl: k
+
+dl: p
+ak: g
+ks: w
+al: y
+ls: b
+;a: x
+;k: j
+kl: z
+fl: q
+;j: v
+;f: f
+
+;s: cur
+;l:
+
+asd: .
+asf: ?
+
+asj: !
+ask: ,
+asl: cln
+as;: ;
+
+adj: "
+adk: '
+adl: (
+ad;: )
+
+afj: /
+afk: \
+afl: hsh
+af;: _
+
+sdj: *
+sdk: +
+sdl: -
+sd;: %
+
+sfj: =
+sfk: >
+sfl: <
+sf;: ^
+
+dfj: [
+dfk: ]
+dfl: {
+df;: }
+
+
+
+
+
+
+### whitelist ###
+
+### remove ###
+# Whitespace
+0020 #SPACE
+000a #Newline
+0009 #Tab
+000d #Carriage return
+000a0 #NO-BREAK SPACE
+200b #ZERO WIDTH SPACE
+feff #ZERO WIDTH NO-BREAK SPACE
+200a #HAIR SPACE
+2800 #BRAILLE PATTERN BLANK
+202f #NARROW NO-BREAK SPACE
+2009 #THIN SPACE
+200d #ZERO WIDTH JOINER
+2002 #EN SPACE
+2028 #LINE SEPARATOR
+
+# Dashes
+002d #HYPHEN-MINUS
+2013 #EN DASH
+2014 #EM DASH
+00ad #SOFT HYPHEN
+2010 #HYPHEN
+2011 #NON-BREAKING HYPHEN
+
+# Quotes
+2019 #RIGHT SINGLE QUOTATION MARK
+2018 #LEFT SINGLE QUOTATION MARK
+201c #LEFT DOUBLE QUOTATION MARK
+201d #RIGHT DOUBLE QUOTATION MARK
+2033 #DOUBLE PRIME
+201a #SINGLE LOW-9 QUOTATION MARK
+
+# Other
+#0060 #GRAVE ACCENT
+00af #MACRON
+00b4 #ACUTE ACCENT
+0307 #COMBINING DOT ABOVE
+0301 #COMBINING ACUTE ACCENT
+00a8 #DIAERESIS
+0308 #COMBINING DIAERESIS
+01c1 #LATIN LETTER LATERAL CLICK
+01c3 #LATIN LETTER RETROFLEX CLICK
+01c0 #LATIN LETTER DENTAL CLICK
+2026 #HORIZONTAL ELLIPSIS
+00d7 #MULTIPLICATION SIGN
+00b5 #MICRO SIGN
+fe0f #VARIATION SELECTOR-16
+2060 #WORD JOINER
+200e #LEFT-TO-RIGHT MARK
+200f #RIGHT-TO-LEFT MARK
+2066 #LEFT-TO-RIGHT ISOLATE
+2069 #POP DIRECTIONAL ISOLATE
+202a #LEFT-TO-RIGHT EMBEDDING
+202c #POP DIRECTIONAL FORMATTING
+
+# Currency
+17db #KHMER CURRENCY SYMBOL RIEL
+
+# Controls
+0080 - 009F # Controls
+
+# Greek
+0370 - 03bb #exclude mu
+03bd - 03bf #exclude pi
+03c1 - 03FF #Greek
+
+# Cyrillic
+0400 - 04FF #Cyrillic
+
+# Japanese
+3000 - 303f #Japanese-style punctuation
+3040 - 309f #Hiragana
+30a0 - 30c3 #Katakana
+30c5 - 30ff #Katakana
+ff00 - ffef #Full-width roman characters and half-width katakana
+4e00 - 9faf #CJK unifed ideopraphs
+
+# Arabic
+0600 - 06FF # Arabic
+
+# Korean
+1100 - 11FF #Hangul Jamo
+AC00 - D7AF #Hangul Syllables
+
+# Thai
+0E00 - 0E7F
+
+# Unified Canadian Aboriginal Syllabics
+1400 - 167F
+
+#
+
+# Math
+2154 #VULGAR FRACTION TWO THIRDS
+2153 #VULGAR FRACTION ONE THIRD
+00bc #VULGAR FRACTION ONE QUARTER
+00be #VULGAR FRACTION THREE QUARTERS
+00b9 #SUPERSCRIPT ONE
+00b2 #SUPERSCRIPT TWO
